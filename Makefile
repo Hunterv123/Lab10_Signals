@@ -18,7 +18,7 @@ signal_handler: signal_handler.o
 signal_segfault: signal_segfault.o
 	$(CC) -o signal_segfault signal_segfault.o
 
-signal_sigaction: signal_siggaction.o
+signal_sigaction: signal_sigaction.o
 	$(CC) -o signal_sigaction signal_sigaction.o
 
 clean:
